@@ -1,0 +1,34 @@
+<!DocType html>
+<html>
+<head>
+	<title>Lab15</title>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+    
+    <base href="/">
+</head>
+    
+<body ng-app="myApp">
+     <header></header>
+    <div class="container">
+       
+        <div class="navbar">
+        <!--<a href="#/">Reddit Pull Page</a>-->
+        <a href="#/palindromeView">Palindrome Page</a>
+        </div>
+        <ng-view></ng-view>
+        
+        </div> 
+	<footer></footer>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.6/angular.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.6/angular-route.js"></script>
+	<script src="app.js"></script>
+	<script src="weekendctrl.js"></script>
+    <script src="secondCtrl.js"></script>
+	<script src="header.js"></script> 
+    <script src="footer.js"></script>
+    
+</body>
+</html>
